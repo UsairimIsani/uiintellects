@@ -60,6 +60,15 @@ div[class="dbl"]:hover{
   background-color: pink;
   transition: transform 400ms ease-in-out 0.2s;
 }
-.bt:hover{
+.bt:hover .bt:onclick{
+  transform: translate(150px, 100px) rotate(45deg);
+}
+.menu{
+  background-color: hsl(187, 15%, 58%);
+  width: 200px;
+  height: 50px;
+
+}
+.bt:on-click{
   transform: translate(150px, 100px) rotate(45deg);
 }
