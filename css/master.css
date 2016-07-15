@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Audiowide|Orbitron|Poiret+One';
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+   background: #000 url("../media/paisley.png") repeat ;
+
+  margin-left: 1em;
+  margin-right: 1em;
+}
+header{
+
+}
+.navbar{
+  background-color: hsl(271, 78%, 37%);
+  padding: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+}
+a[class=nav-link]{
+  font-size: 1.8em;
+  color: hsl(172, 74%, 46%);
+  padding: 5px;
+  margin: 1.8em;
+  line-height: 2em;
+}
+a{
+  text-decoration: none;
+  font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+h1{
+  color: hsl(172, 74%, 46%);
+  font-family: Audiowide, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  font-size: 4em;
+  text-align: center;
+}
+div[class="dbl"]{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-height: 150px;
+  border-top: 13px double hsl(172, 74%, 46%);
+  transition: transform 460ms ease-in-out 0.2s;
+  background-color: hsl(335, 77%, 82%);
+}
+div[class="dbl"]:hover{
+  transform: translate(0px, 150px);
+
+}
+.bt{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  transition: transform 400ms ease-in-out 0.2s;
+}
+.bt:hover{
+  transform: translate(150px, 100px) rotate(45deg);
+}
